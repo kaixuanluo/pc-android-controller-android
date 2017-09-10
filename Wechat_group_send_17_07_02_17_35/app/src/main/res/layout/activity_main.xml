@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a90678.wechat_group_send_17_07_02_17_35.main.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:hint="同WiFi网络下的电脑ip 例 192.168.1.1"
+        android:id="@+id/main_ip_set_et" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="连接"
+        android:id="@+id/main_ip_set_bt"/>
+
+</LinearLayout>
